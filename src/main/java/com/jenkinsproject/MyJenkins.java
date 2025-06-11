@@ -25,4 +25,9 @@ public class MyJenkins {
 		}
 	}
 
+	@GetMapping("/getData1")
+	public String getTwo() {
+		return "welcome";
+	}
+
 }
